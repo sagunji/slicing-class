@@ -1,0 +1,50 @@
+body {
+  background-color: #ecf3ff;
+}
+
+main {
+  max-width: 1140px;
+  margin: auto;
+  height: 100vh;
+}
+
+header {
+  padding: 43px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4px;
+}
+
+.logo__img {
+  width: 45px;
+  height: 40px;
+}
+
+.logo__text {
+  font-size: 32px;
+}
+
+.menu {
+  display: inline-flex;
+  gap: 50px;
+}
+
+.menu__item {
+  font-size: 18px;
+  color: #05060a;
+  cursor: pointer;
+}
+
+.menu__item:hover {
+  text-decoration: underline;
+  color: red;
+}
